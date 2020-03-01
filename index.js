@@ -1,5 +1,5 @@
 const progressIndicator = require('./progressIndicator.js');
-const progress = new progressIndicator('bar', 250, null);
+const progress = new progressIndicator('throbber', 250, null);
 let steps = 0;
 let retries = 100;
 

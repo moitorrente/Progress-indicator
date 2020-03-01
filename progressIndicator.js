@@ -16,7 +16,7 @@ class progressIndicator {
 
     start() {
         process.stdout.write('\x1B[?25l');
-        if (this.type == 'bar' || this.type == 'time') {
+        if (this.type == 'bar' || this.type == 'indeterminate') {
             process.stdout.write(this.startSymbol);
             for (let i = 0; i < this.maxRange; i++) {
                 process.stdout.write('-');
@@ -30,7 +30,7 @@ class progressIndicator {
         switch (this.type) {
             case 'bar': this.progressUpdate(stepSize);
                 break;
-            case 'time': this.timeUpdate(stepSize);
+            case 'indeterminate': this.timeUpdate(stepSize);
                 break;
             case 'throbber': this.throbberUpdate();
         }
