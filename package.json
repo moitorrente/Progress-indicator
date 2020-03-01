@@ -1,0 +1,11 @@
+{
+  "name": "progress-bar",
+  "version": "1.0.0",
+  "description": "progress bar for command line",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Moises Torrente",
+  "license": "MIT"
+}
