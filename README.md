@@ -6,6 +6,7 @@ Los tipos de indicadores implementados son:
 2. Barra de progreso indeterminado
 3. Throbber
 
+<<<<<<< HEAD
 
 ## Barra de progreso
 ![](./img/bar.PNG)
@@ -15,3 +16,6 @@ Los tipos de indicadores implementados son:
 
 ## Throbber
 
+=======
+![](./img/bar.PNG)
+>>>>>>> 2345aca83ba0c7fbb66120b030ce4c435647b57d
